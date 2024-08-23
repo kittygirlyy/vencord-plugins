@@ -2,4 +2,4 @@
 
 Hiii, this is my vencord user plugins folder with my exported settings 💫
 
-If any problems encountered add me on discord : @wiinter.uwu
+If any problems encountered add me on discord : @suna.cute
