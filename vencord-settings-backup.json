@@ -8,9 +8,9 @@
             "// https://raw.githubusercontent.com/XYZenix/XYZenixThemes/refs/heads/master/Other/osu/old-osu/old-osu.css",
             "// https://luckfire.github.io/amoled-cord/src/amoled-cord.css",
             "// https://raw.githubusercontent.com/Saltssaumure/w9x-discord-theme/main/NineX.theme.css",
-            "// https://raw.githubusercontent.com/NightKasumi/Vencord-Themes/refs/heads/main/NotAnotherAnimeTheme.theme.css",
-            "// https://raw.githubusercontent.com/NightKasumi/Vencord-Themes/refs/heads/main/Honkai%20Sirin%201%20CE.theme.css",
-            "//https://raw.githubusercontent.com/NightKasumi/Vencord-Themes/refs/heads/main/Honkai%20Impact%20Yae%20Sakura.theme.css"
+            "//https://raw.githubusercontent.com/NightKasumi/Vencord-Themes/refs/heads/main/NotAnotherAnimeTheme.theme.css",
+            "//https://raw.githubusercontent.com/NightKasumi/Vencord-Themes/refs/heads/main/Honkai%20Sirin%201%20CE.theme.css",
+            "//https://raw.githubusercontent.com/NightKasumi/Vencord-//Themes/refs/heads/main/Honkai%20Impact%20Yae%20Sakura.theme.css"
         ],
         "enabledThemes": [],
         "enableReactDevtools": true,
@@ -134,15 +134,15 @@
                 "type": 5,
                 "timestampMode": 2,
                 "appID": "1219289675064152196",
-                "appName": "Best puppy girl",
-                "details": "           UwU",
-                "state": "❣‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗❣",
-                "imageBig": "https://i.pinimg.com/736x/37/0a/00/370a00f16fce83e8c3b681c306d9ed1e.jpg",
-                "buttonOneText": "Femboy France",
-                "buttonOneURL": "https://discord.gg/femboyfr",
+                "appName": "⁀➴",
+                "details": "⌞🀢🀣🀦🀤 ⌝",
+                "state": "",
+                "imageBig": "https://media.tenor.com/z_mpZEUUoroAAAAC/uwu.gif",
+                "buttonOneText": "⋆｡˚ ☁︎ ˚｡⋆｡˚☽˚｡⋆",
+                "buttonOneURL": "https://discord.gg/searchhub-x",
                 "imageBigTooltip": "",
-                "buttonTwoText": "",
-                "buttonTwoURL": "",
+                "buttonTwoText": "/ᐠ > ˕ <マ ₊˚⊹♡",
+                "buttonTwoURL": "https://discord.gg/soku",
                 "imageSmall": "",
                 "imageSmallTooltip": ""
             },
@@ -153,7 +153,7 @@
                 "enabled": true
             },
             "Experiments": {
-                "enabled": false,
+                "enabled": true,
                 "toolbarDevMenu": false
             },
             "F8Break": {
@@ -198,10 +198,8 @@
                 "enabled": false
             },
             "GreetStickerPicker": {
-                "enabled": false
-            },
-            "HideAttachments": {
-                "enabled": false
+                "enabled": true,
+                "greetMode": "Greet"
             },
             "iLoveSpam": {
                 "enabled": false
@@ -220,10 +218,23 @@
                 "enabled": false
             },
             "LastFMRichPresence": {
-                "enabled": false
+                "enabled": false,
+                "shareUsername": false,
+                "shareSong": true,
+                "hideWithSpotify": true,
+                "statusName": "some music",
+                "nameFormat": "status-name",
+                "useListeningStatus": false,
+                "missingArt": "lastfmLogo",
+                "showLastFmLogo": true
             },
             "LoadingQuotes": {
-                "enabled": false
+                "enabled": false,
+                "replaceEvents": true,
+                "enablePluginPresetQuotes": true,
+                "enableDiscordPresetQuotes": false,
+                "additionalQuotes": "Meow|Miaou|UwU",
+                "additionalQuotesDelimiter": "|"
             },
             "MemberCount": {
                 "enabled": true,
@@ -293,7 +304,7 @@
                 "enabled": false
             },
             "NoScreensharePreview": {
-                "enabled": true
+                "enabled": false
             },
             "NoSystemBadge": {
                 "enabled": false
@@ -331,14 +342,118 @@
                 "enabled": false
             },
             "PictureInPicture": {
-                "enabled": false
+                "enabled": false,
+                "loop": true
             },
             "PinDMs": {
                 "enabled": true,
                 "pinnedDMs": "1189279151241310338,1202825879361822741,1213688987089244231,1213688983356186694",
                 "pinOrder": 0,
-                "dmSectioncollapsed": false,
-                "sortDmsByNewestMessage": false
+                "sortDmsByNewestMessage": false,
+                "dmSectionCollapsed": false,
+                "canCollapseDmSection": false,
+                "userBasedCategoryList": {
+                    "1130194274902876291": [
+                        {
+                            "id": "oldPins",
+                            "name": "Pins",
+                            "color": 10070709,
+                            "channels": [
+                                "1189279151241310338",
+                                "1202825879361822741",
+                                "1213688987089244231",
+                                "1213688983356186694"
+                            ]
+                        }
+                    ],
+                    "921518780876738602": [
+                        {
+                            "id": "oldPins",
+                            "name": "❤️",
+                            "color": 16687092,
+                            "channels": [
+                                "1211101521261891594",
+                                "1317666552799170580",
+                                "1258181567235231764"
+                            ],
+                            "collapsed": false
+                        },
+                        {
+                            "id": "it4btpcqpi",
+                            "name": "✨",
+                            "color": 16579836,
+                            "collapsed": false,
+                            "channels": [
+                                "1261950984264089612",
+                                "1190015079664595034",
+                                "1252612928511672423",
+                                "1265735654696947838",
+                                "1265295916584144950",
+                                "1265693547017801822",
+                                "1285222533913645107",
+                                "1265971331707441259",
+                                "1255988890838372403",
+                                "1260416823556444170",
+                                "1275892521565683732",
+                                "1195124517673115800",
+                                "1226994786372685905",
+                                "1261692569411387454",
+                                "1290111298377351229",
+                                "1330552725523529819"
+                            ]
+                        },
+                        {
+                            "id": "5tnpu7hevub",
+                            "name": "Groupes",
+                            "color": 1351933,
+                            "collapsed": false,
+                            "channels": [
+                                "1257273348539420724",
+                                "1256760399433437215",
+                                "1261609544895692840",
+                                "1264623556738678854",
+                                "1266865498562363432",
+                                "1266854164340674621",
+                                "1264623055016169614",
+                                "1271860451633790977",
+                                "1272949638437011617",
+                                "1279536917905670266",
+                                "1282087814170673344",
+                                "1283567528966094858",
+                                "1298760666068291704",
+                                "1320194783574097990",
+                                "1322209403042140211",
+                                "1324500265981972480",
+                                "1340001433449140274"
+                            ]
+                        },
+                        {
+                            "id": "j9uav9s6i5",
+                            "name": "RPSEX",
+                            "color": 16089343,
+                            "collapsed": false,
+                            "channels": [
+                                "1339317014501654548"
+                            ]
+                        }
+                    ],
+                    "1256041161215312004": [
+                        {
+                            "id": "qyijhb36ru",
+                            "name": "❤️",
+                            "color": 10181046,
+                            "collapsed": false,
+                            "channels": [
+                                "1302054721057591406"
+                            ]
+                        }
+                    ],
+                    "1256055472218443786": [],
+                    "1317500960058376193": [],
+                    "1256130198777364490": [],
+                    "1317180640197607545": [],
+                    "1317479797361741894": []
+                }
             },
             "PlainFolderIcon": {
                 "enabled": false
@@ -392,13 +507,14 @@
                 "replaceMessageContents": true
             },
             "ServerListIndicators": {
-                "enabled": true
+                "enabled": true,
+                "mode": 3
             },
             "ShikiCodeblocks": {
                 "enabled": true,
-                "theme": "https://raw.githubusercontent.com/shikijs/shiki/0b28ad8ccfbf2615f2d9d38ea8255416b8ac3043/packages/shiki/themes/rose-pine.json",
+                "theme": "https://raw.githubusercontent.com/millsp/material-candy/master/material-candy.json",
                 "tryHljs": "SECONDARY",
-                "useDevIcon": "COLOR",
+                "useDevIcon": "DISABLED",
                 "bgOpacity": 100
             },
             "ShowAllMessageButtons": {
@@ -581,7 +697,7 @@
                 "enabled": false
             },
             "BetterSettings": {
-                "enabled": false,
+                "enabled": true,
                 "disableFade": true,
                 "organizeMenu": true,
                 "eagerLoad": true
@@ -597,7 +713,7 @@
                 "uwuEverything": false
             },
             "FakeDeafen": {
-                "enabled": false
+                "enabled": true
             },
             "Cute nekos": {
                 "enabled": true
@@ -633,7 +749,8 @@
                 "cacheLimit": 1000,
                 "saveMessages": true,
                 "saveImages": false,
-                "messageLimit": 200
+                "messageLimit": 200,
+                "ShowLogsButton": true
             },
             "Stalker": {
                 "enabled": true,
@@ -650,14 +767,19 @@
             },
             "Fake Voice Options": {
                 "enabled": true,
-                "fakeMute": false,
+                "fakeMute": true,
                 "fakeDeafen": true
             },
             "Hug": {
                 "enabled": true
             },
             "ShowHiddenThings": {
-                "enabled": false
+                "enabled": false,
+                "showTimeouts": true,
+                "showInvitesPaused": true,
+                "showModView": true,
+                "disableDiscoveryFilters": true,
+                "disableDisallowedDiscoveryFilters": true
             },
             "BetterSessions": {
                 "enabled": false,
@@ -665,7 +787,8 @@
                 "checkInterval": 20
             },
             "ImplicitRelationships": {
-                "enabled": false
+                "enabled": false,
+                "sortByAffinity": true
             },
             "StreamerModeOnStream": {
                 "enabled": false
@@ -808,11 +931,164 @@
             },
             "FixImagesQuality": {
                 "enabled": false
+            },
+            "venfetch": {
+                "enabled": true
+            },
+            "EnableStereo": {
+                "enabled": true,
+                "stereochannel": 7.1
+            },
+            "FullUserInChatbox": {
+                "enabled": false
+            },
+            "IrcColors": {
+                "enabled": false,
+                "lightness": 70,
+                "memberListColors": true
+            },
+            "HideMedia": {
+                "enabled": true
+            },
+            "Stereo Mic": {
+                "enabled": true,
+                "voiceBitrate": 512,
+                "enableFec": true
+            },
+            "AllCallTimers": {
+                "enabled": true,
+                "watchLargeGuilds": false,
+                "showWithoutHover": true,
+                "showRoleColor": true,
+                "trackSelf": true,
+                "showSeconds": true,
+                "format": "stopwatch"
+            },
+            "BetterBanReasons": {
+                "enabled": true,
+                "reasons": [
+                    "meow"
+                ]
+            },
+            "BetterMicrophone": {
+                "enabled": false,
+                "stores": {
+                    "MicrophoneStore": {}
+                }
+            },
+            "BetterPinDMs": {
+                "enabled": false
+            },
+            "BetterScreenshare": {
+                "enabled": false,
+                "stores": {
+                    "ScreenshareStore": {},
+                    "ScreenshareAudioStore": {}
+                },
+                "hideDefaultSettings": true
+            },
+            "BlockDc": {
+                "enabled": false
+            },
+            "BlockKrisp": {
+                "enabled": true
+            },
+            "ChannelTabs": {
+                "enabled": false
+            },
+            "ClientSideBlock": {
+                "enabled": true,
+                "hideEmptyRoles": true,
+                "hideBlockedMessages": true,
+                "usersToBlock": "",
+                "hideBlockedUsers": true,
+                "guildBlackList": "",
+                "guildWhiteList": ""
+            },
+            "CustomSounds": {
+                "enabled": false
+            },
+            "Demonstration": {
+                "enabled": true,
+                "keyBind": "F6",
+                "soundVolume": 0.5,
+                "showConfirmationModal": false
+            },
+            "HomeTyping": {
+                "enabled": true
+            },
+            "JumpToStart": {
+                "enabled": true
+            },
+            "KeyboardSounds": {
+                "enabled": false
+            },
+            "LastOnline": {
+                "enabled": true
+            },
+            "MediaDownloader": {
+                "enabled": true,
+                "showProgress": true,
+                "showFfmpegWarning": true,
+                "defaultGifQuality": 3
+            },
+            "MediaPlaybackSpeed": {
+                "enabled": true,
+                "defaultVoiceMessageSpeed": 1,
+                "defaultVideoSpeed": 1,
+                "defaultAudioSpeed": 1
+            },
+            "NoMirroredCamera": {
+                "enabled": true
+            },
+            "PhilsPluginLibrary": {
+                "enabled": true
+            },
+            "PlatformSpoofer": {
+                "enabled": false,
+                "platform": "desktop"
+            },
+            "Quoter": {
+                "enabled": true,
+                "userIdentifier": 0
+            },
+            "SearchFix": {
+                "enabled": true
+            },
+            "ServerSearch": {
+                "enabled": false
+            },
+            "NotifyUserChanges": {
+                "enabled": true,
+                "notifyStatus": true,
+                "userIds": "1223652807190515865",
+                "notifyVoice": false,
+                "persistNotifications": false
+            },
+            "Timezone": {
+                "enabled": true,
+                "showProfileTime": true,
+                "showMessageHeaderTime": true,
+                "24h Time": false
+            },
+            "VoiceChatMention": {
+                "enabled": true
+            },
+            "WhosWatching": {
+                "enabled": false
+            },
+            "WhoTheHellWasThat": {
+                "enabled": true,
+                "sizeLimit": -1,
+                "notification": "session"
+            },
+            "YoutubeDescription": {
+                "enabled": false
             }
         },
         "notifications": {
             "timeout": 5000,
-            "position": "bottom-right",
+            "position": "top-right",
             "useNative": "never",
             "logLimit": 50
         },
@@ -820,8 +1096,9 @@
             "authenticated": true,
             "url": "https://api.vencord.dev/",
             "settingsSync": true,
-            "settingsSyncVersion": 1732286340502
-        }
+            "settingsSyncVersion": 1740474315818
+        },
+        "eagerPatches": false
     },
-    "quickCss": "/* Match Send Friend Request Button color with the Profile Color */\r\n.custom-profile-theme [aria-label=\"Send Friend Request\"] button {\r\n background-color: var(--profile-gradient-button-color);\r\n transition: opacity .2s ease-in-out;\r\n}\r\n.custom-profile-theme [aria-label=\"Send Friend Request\"] button:hover {\r\n background-color: var(--profile-gradient-button-color);\r\n opacity: 0.8;\r\n}\r\n\r\n/* Transgender Boost Gradient; Recolors the boosting gradient to be the best flag ever */\r\nbody {\r\n    --guild-boosting-blue: #60d0fa, #f5acba, #ffffff;\r\n    --guild-boosting-purple: #ffffff, #f5acba, #60d0fa;\r\n}\r\n\r\n/* Make Delete/Logout Buttons Trans */\r\n@keyframes transfg {\r\n    0% { color: lightblue; }\r\n    25% { color: pink; }\r\n    50% { color: white; }\r\n    75% { color: pink; }\r\n    100% { color: lightblue; }\r\n}\r\n@keyframes transbg {\r\n    0% { background: lightblue; }\r\n    25% { background: pink; }\r\n    50% { background: white; }\r\n    75% { background: pink; }\r\n    100% { background: lightblue; }\r\n}\r\n[class^=item_][data-tab-id=\"DELETE\"],\r\n[class^=item_][data-tab-id=\"logout\"] {\r\n    animation: transfg 5s infinite;\r\n}\r\n[class^=item_][data-tab-id=\"DELETE\"]:hover,\r\n[class^=item_][data-tab-id=\"logout\"]:hover {\r\n    animation: transbg 3s infinite;\r\n}\r\n\r\n@keyframes rainbowBackgroundTransparent {\r\n  0% { background-color: rgba(255, 0, 0, 0.4); }      /* Red */\r\n  16% { background-color: rgba(255, 165, 0, 0.4); }    /* Orange */\r\n  33% { background-color: rgba(255, 255, 0, 0.4); }    /* Yellow */\r\n  50% { background-color: rgba(0, 128, 0, 0.4); }      /* Green */\r\n  66% { background-color: rgba(0, 0, 255, 0.4); }      /* Blue */\r\n  83% { background-color: rgba(75, 0, 130, 0.4); }     /* Indigo */\r\n  100% { background-color: rgba(238, 130, 238, 0.4); } /* Violet */\r\n}\r\n\r\n@keyframes rainbow {\r\n  0% { color: rgba(255, 0, 0, 1); }      /* Red */\r\n  16% { color: rgba(255, 165, 0, 1); }    /* Orange */\r\n  33% { color: rgba(255, 255, 0, 1); }    /* Yellow */\r\n  50% { color: rgba(0, 128, 0, 1); }      /* Green */\r\n  66% { color: rgba(0, 0, 255, 1); }      /* Blue */\r\n  83% { color: rgba(75, 0, 130, 1); }     /* Indigo */\r\n  100% { color: rgba(238, 130, 238, 1); } /* Violet */\r\n}\r\n\r\n[aria-label*=gay] [class*=folderIconWrapper] {\r\n  animation: rainbowBackgroundTransparent 5s infinite;\r\n  transition: background-color 0.5s ease;\r\n}\r\n\r\n[aria-label*=gay] [class*=folderIconWrapper] svg {\r\n  animation: rainbow 5s infinite;\r\n  transition: color 0.5s ease;\r\n}\r\n"
+    "quickCss": "\r\n/* Match Send Friend Request Button color with the Profile Color */\r\n.custom-profile-theme [aria-label=\"Send Friend Request\"] button {\r\n background-color: var(--profile-gradient-button-color);\r\n transition: opacity .2s ease-in-out;\r\n}\r\n.custom-profile-theme [aria-label=\"Send Friend Request\"] button:hover {\r\n background-color: var(--profile-gradient-button-color);\r\n opacity: 0.8;\r\n}\r\n\r\n/* Transgender Boost Gradient; Recolors the boosting gradient to be the best flag ever */\r\nbody {\r\n    --guild-boosting-blue: #60d0fa, #f5acba, #ffffff;\r\n    --guild-boosting-purple: #ffffff, #f5acba, #60d0fa;\r\n}\r\n\r\n/* Make Delete/Logout Buttons Trans */\r\n@keyframes transfg {\r\n    0% { color: lightblue; }\r\n    25% { color: pink; }\r\n    50% { color: white; }\r\n    75% { color: pink; }\r\n    100% { color: lightblue; }\r\n}\r\n@keyframes transbg {\r\n    0% { background: lightblue; }\r\n    25% { background: pink; }\r\n    50% { background: white; }\r\n    75% { background: pink; }\r\n    100% { background: lightblue; }\r\n}\r\n[class^=item_][data-tab-id=\"DELETE\"],\r\n[class^=item_][data-tab-id=\"logout\"] {\r\n    animation: transfg 5s infinite;\r\n}\r\n[class^=item_][data-tab-id=\"DELETE\"]:hover,\r\n[class^=item_][data-tab-id=\"logout\"]:hover {\r\n    animation: transbg 3s infinite;\r\n}\r\n\r\n@keyframes rainbowBackgroundTransparent {\r\n  0% { background-color: rgba(255, 0, 0, 0.4); }      /* Red */\r\n  16% { background-color: rgba(255, 165, 0, 0.4); }    /* Orange */\r\n  33% { background-color: rgba(255, 255, 0, 0.4); }    /* Yellow */\r\n  50% { background-color: rgba(0, 128, 0, 0.4); }      /* Green */\r\n  66% { background-color: rgba(0, 0, 255, 0.4); }      /* Blue */\r\n  83% { background-color: rgba(75, 0, 130, 0.4); }     /* Indigo */\r\n  100% { background-color: rgba(238, 130, 238, 0.4); } /* Violet */\r\n}\r\n\r\n@keyframes rainbow {\r\n  0% { color: rgba(255, 0, 0, 1); }      /* Red */\r\n  16% { color: rgba(255, 165, 0, 1); }    /* Orange */\r\n  33% { color: rgba(255, 255, 0, 1); }    /* Yellow */\r\n  50% { color: rgba(0, 128, 0, 1); }      /* Green */\r\n  66% { color: rgba(0, 0, 255, 1); }      /* Blue */\r\n  83% { color: rgba(75, 0, 130, 1); }     /* Indigo */\r\n  100% { color: rgba(238, 130, 238, 1); } /* Violet */\r\n}\r\n\r\n[aria-label*=gay] [class*=folderIconWrapper] {\r\n  animation: rainbowBackgroundTransparent 5s infinite;\r\n  transition: background-color 0.5s ease;\r\n}\r\n\r\n[aria-label*=gay] [class*=folderIconWrapper] svg {\r\n  animation: rainbow 5s infinite;\r\n  transition: color 0.5s ease;\r\n}"
 }
