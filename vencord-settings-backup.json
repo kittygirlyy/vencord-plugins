@@ -8,8 +8,8 @@
             "// https://raw.githubusercontent.com/XYZenix/XYZenixThemes/refs/heads/master/Other/osu/old-osu/old-osu.css",
             "// https://luckfire.github.io/amoled-cord/src/amoled-cord.css",
             "// https://raw.githubusercontent.com/Saltssaumure/w9x-discord-theme/main/NineX.theme.css",
-            "//https://raw.githubusercontent.com/NightKasumi/Vencord-Themes/refs/heads/main/NotAnotherAnimeTheme.theme.css",
-            "//https://raw.githubusercontent.com/NightKasumi/Vencord-Themes/refs/heads/main/Honkai%20Sirin%201%20CE.theme.css",
+            "// https://raw.githubusercontent.com/NightKasumi/Vencord-Themes/refs/heads/main/NotAnotherAnimeTheme.theme.css",
+            "// https://raw.githubusercontent.com/NightKasumi/Vencord-Themes/refs/heads/main/Honkai%20Sirin%201%20CE.theme.css",
             "//https://raw.githubusercontent.com/NightKasumi/Vencord-//Themes/refs/heads/main/Honkai%20Impact%20Yae%20Sakura.theme.css"
         ],
         "enabledThemes": [],
@@ -71,7 +71,7 @@
             "AnonymiseFileNames": {
                 "enabled": true,
                 "anonymiseByDefault": true,
-                "method": 0,
+                "method": 1,
                 "randomisedLength": 7,
                 "consistent": "image"
             },
@@ -134,15 +134,15 @@
                 "type": 5,
                 "timestampMode": 2,
                 "appID": "1219289675064152196",
-                "appName": "⁀➴",
+                "appName": "/searchhub-x",
                 "details": "⌞🀢🀣🀦🀤 ⌝",
                 "state": "",
                 "imageBig": "https://media.tenor.com/z_mpZEUUoroAAAAC/uwu.gif",
-                "buttonOneText": "⋆｡˚ ☁︎ ˚｡⋆｡˚☽˚｡⋆",
+                "buttonOneText": "SearchHub Discord",
                 "buttonOneURL": "https://discord.gg/searchhub-x",
                 "imageBigTooltip": "",
-                "buttonTwoText": "/ᐠ > ˕ <マ ₊˚⊹♡",
-                "buttonTwoURL": "https://discord.gg/soku",
+                "buttonTwoText": "SearchHub Website",
+                "buttonTwoURL": "https://searchhub.ru",
                 "imageSmall": "",
                 "imageSmallTooltip": ""
             },
@@ -331,7 +331,9 @@
                 "enabled": false
             },
             "PermissionFreeWill": {
-                "enabled": false
+                "enabled": false,
+                "lockout": true,
+                "onboarding": true
             },
             "PermissionsViewer": {
                 "enabled": true,
@@ -363,7 +365,8 @@
                                 "1202825879361822741",
                                 "1213688987089244231",
                                 "1213688983356186694"
-                            ]
+                            ],
+                            "collapsed": false
                         }
                     ],
                     "921518780876738602": [
@@ -389,7 +392,6 @@
                                 "1252612928511672423",
                                 "1265735654696947838",
                                 "1265295916584144950",
-                                "1265693547017801822",
                                 "1285222533913645107",
                                 "1265971331707441259",
                                 "1255988890838372403",
@@ -424,7 +426,8 @@
                                 "1320194783574097990",
                                 "1322209403042140211",
                                 "1324500265981972480",
-                                "1340001433449140274"
+                                "1340001433449140274",
+                                "1346162436876533802"
                             ]
                         },
                         {
@@ -433,7 +436,8 @@
                             "color": 16089343,
                             "collapsed": false,
                             "channels": [
-                                "1339317014501654548"
+                                "1339317014501654548",
+                                "1346545864629288980"
                             ]
                         }
                     ],
@@ -539,7 +543,7 @@
             },
             "SilentTyping": {
                 "enabled": true,
-                "isEnabled": false,
+                "isEnabled": true,
                 "showIcon": false,
                 "specificChats": false,
                 "disabledFor": "",
@@ -549,7 +553,10 @@
                 "enabled": false
             },
             "SpotifyControls": {
-                "enabled": false
+                "enabled": false,
+                "hoverControls": false,
+                "useSpotifyUris": false,
+                "previousButtonRestartsTrack": true
             },
             "SpotifyCrack": {
                 "enabled": true,
@@ -727,7 +734,9 @@
                 "zoomMultiplier": 4
             },
             "VoiceChatUtilities": {
-                "enabled": true
+                "enabled": true,
+                "waitAfter": 5,
+                "waitSeconds": 2
             },
             "MessageLoggerEnhanced": {
                 "enabled": true,
@@ -750,7 +759,8 @@
                 "saveMessages": true,
                 "saveImages": false,
                 "messageLimit": 200,
-                "ShowLogsButton": true
+                "ShowLogsButton": true,
+                "permanentlyRemoveLogByDefault": false
             },
             "Stalker": {
                 "enabled": true,
@@ -767,8 +777,8 @@
             },
             "Fake Voice Options": {
                 "enabled": true,
-                "fakeMute": true,
-                "fakeDeafen": true
+                "fakeMute": false,
+                "fakeDeafen": false
             },
             "Hug": {
                 "enabled": true
@@ -800,7 +810,7 @@
                 "enabled": false
             },
             "PauseInvitesForever": {
-                "enabled": false
+                "enabled": true
             },
             "ReplyTimestamp": {
                 "enabled": false
@@ -999,11 +1009,12 @@
             "ClientSideBlock": {
                 "enabled": true,
                 "hideEmptyRoles": true,
-                "hideBlockedMessages": true,
+                "hideBlockedMessages": false,
                 "usersToBlock": "",
                 "hideBlockedUsers": true,
                 "guildBlackList": "",
-                "guildWhiteList": ""
+                "guildWhiteList": "",
+                "blockedReplyDisplay": "displayText"
             },
             "CustomSounds": {
                 "enabled": false
@@ -1075,7 +1086,8 @@
                 "enabled": true
             },
             "WhosWatching": {
-                "enabled": false
+                "enabled": true,
+                "showPanel": true
             },
             "WhoTheHellWasThat": {
                 "enabled": true,
@@ -1083,6 +1095,15 @@
                 "notification": "session"
             },
             "YoutubeDescription": {
+                "enabled": false
+            },
+            "BoarHack": {
+                "enabled": false
+            },
+            "Copier": {
+                "enabled": true
+            },
+            "SkyClient": {
                 "enabled": false
             }
         },
@@ -1096,9 +1117,9 @@
             "authenticated": true,
             "url": "https://api.vencord.dev/",
             "settingsSync": true,
-            "settingsSyncVersion": 1740474315818
+            "settingsSyncVersion": 1744412869474
         },
         "eagerPatches": false
     },
-    "quickCss": "\r\n/* Match Send Friend Request Button color with the Profile Color */\r\n.custom-profile-theme [aria-label=\"Send Friend Request\"] button {\r\n background-color: var(--profile-gradient-button-color);\r\n transition: opacity .2s ease-in-out;\r\n}\r\n.custom-profile-theme [aria-label=\"Send Friend Request\"] button:hover {\r\n background-color: var(--profile-gradient-button-color);\r\n opacity: 0.8;\r\n}\r\n\r\n/* Transgender Boost Gradient; Recolors the boosting gradient to be the best flag ever */\r\nbody {\r\n    --guild-boosting-blue: #60d0fa, #f5acba, #ffffff;\r\n    --guild-boosting-purple: #ffffff, #f5acba, #60d0fa;\r\n}\r\n\r\n/* Make Delete/Logout Buttons Trans */\r\n@keyframes transfg {\r\n    0% { color: lightblue; }\r\n    25% { color: pink; }\r\n    50% { color: white; }\r\n    75% { color: pink; }\r\n    100% { color: lightblue; }\r\n}\r\n@keyframes transbg {\r\n    0% { background: lightblue; }\r\n    25% { background: pink; }\r\n    50% { background: white; }\r\n    75% { background: pink; }\r\n    100% { background: lightblue; }\r\n}\r\n[class^=item_][data-tab-id=\"DELETE\"],\r\n[class^=item_][data-tab-id=\"logout\"] {\r\n    animation: transfg 5s infinite;\r\n}\r\n[class^=item_][data-tab-id=\"DELETE\"]:hover,\r\n[class^=item_][data-tab-id=\"logout\"]:hover {\r\n    animation: transbg 3s infinite;\r\n}\r\n\r\n@keyframes rainbowBackgroundTransparent {\r\n  0% { background-color: rgba(255, 0, 0, 0.4); }      /* Red */\r\n  16% { background-color: rgba(255, 165, 0, 0.4); }    /* Orange */\r\n  33% { background-color: rgba(255, 255, 0, 0.4); }    /* Yellow */\r\n  50% { background-color: rgba(0, 128, 0, 0.4); }      /* Green */\r\n  66% { background-color: rgba(0, 0, 255, 0.4); }      /* Blue */\r\n  83% { background-color: rgba(75, 0, 130, 0.4); }     /* Indigo */\r\n  100% { background-color: rgba(238, 130, 238, 0.4); } /* Violet */\r\n}\r\n\r\n@keyframes rainbow {\r\n  0% { color: rgba(255, 0, 0, 1); }      /* Red */\r\n  16% { color: rgba(255, 165, 0, 1); }    /* Orange */\r\n  33% { color: rgba(255, 255, 0, 1); }    /* Yellow */\r\n  50% { color: rgba(0, 128, 0, 1); }      /* Green */\r\n  66% { color: rgba(0, 0, 255, 1); }      /* Blue */\r\n  83% { color: rgba(75, 0, 130, 1); }     /* Indigo */\r\n  100% { color: rgba(238, 130, 238, 1); } /* Violet */\r\n}\r\n\r\n[aria-label*=gay] [class*=folderIconWrapper] {\r\n  animation: rainbowBackgroundTransparent 5s infinite;\r\n  transition: background-color 0.5s ease;\r\n}\r\n\r\n[aria-label*=gay] [class*=folderIconWrapper] svg {\r\n  animation: rainbow 5s infinite;\r\n  transition: color 0.5s ease;\r\n}"
+    "quickCss": "\r\n/* settings refresh */\r\n@import url(\"https://dablulite.github.io/css-snippets/AccountSettingsRefresh/import.css\");\r\n\r\n/* ACCENT COLOR */\r\n :root {\r\n  --brand-500: hsl(310, 78%, 75%);\r\n}\r\n:root,\r\n.theme-dark {\r\n  /* New brand variables */\r\n  --brand-100: color-mix(\r\n    in srgb,\r\n    #fff calc(97.6% - 32.5%),\r\n    var(--brand-500)\r\n  );\r\n  --brand-130: color-mix(\r\n    in srgb,\r\n    #fff calc(95.5% - 32.5%),\r\n    var(--brand-500)\r\n  );\r\n  --brand-160: color-mix(\r\n    in srgb,\r\n    #fff calc(92.9% - 32.5%),\r\n    var(--brand-500)\r\n  );\r\n  --brand-200: color-mix(\r\n    in srgb,\r\n    #fff calc(90% - 32.5%),\r\n    var(--brand-500)\r\n  );\r\n  --brand-230: color-mix(\r\n    in srgb,\r\n    #fff calc(87.1% - 32.5%),\r\n    var(--brand-500)\r\n  );\r\n  --brand-260: color-mix(\r\n    in srgb,\r\n    #fff calc(83.7% - 32.5%),\r\n    var(--brand-500)\r\n  );\r\n  --brand-300: color-mix(\r\n    in srgb,\r\n    #fff calc(78.8% - 32.5%),\r\n    var(--brand-500)\r\n  );\r\n  --brand-330: color-mix(\r\n    in srgb,\r\n    #fff calc(73.3% - 32.5%),\r\n    var(--brand-500)\r\n  );\r\n  --brand-345: color-mix(\r\n    in srgb,\r\n    #fff calc(67.5% - 32.5%),\r\n    var(--brand-500)\r\n  );\r\n  --brand-360: color-mix(\r\n    in srgb,\r\n    #fff calc(61.2% - 32.5%),\r\n    var(--brand-500)\r\n  );\r\n  --brand-400: color-mix(\r\n    in srgb,\r\n    #fff calc(52.9% - 32.5%),\r\n    var(--brand-500)\r\n  );\r\n  --brand-430: color-mix(\r\n    in srgb,\r\n    #fff calc(44.9% - 32.5%),\r\n    var(--brand-500)\r\n  );\r\n  --brand-460: color-mix(\r\n    in srgb,\r\n    #fff calc(38% - 32.5%),\r\n    var(--brand-500)\r\n  );\r\n  --brand-530: color-mix(\r\n    in srgb,\r\n    #000 calc(38% - 32.5%),\r\n    var(--brand-500)\r\n  );\r\n  --brand-560: color-mix(\r\n    in srgb,\r\n    #000 calc(44.9% - 32.5%),\r\n    var(--brand-500)\r\n  );\r\n  --brand-600: color-mix(\r\n    in srgb,\r\n    #000 calc(52.9% - 32.5%),\r\n    var(--brand-500)\r\n  );\r\n  --brand-630: color-mix(\r\n    in srgb,\r\n    #000 calc(61.2% - 32.5%),\r\n    var(--brand-500)\r\n  );\r\n  --brand-645: color-mix(\r\n    in srgb,\r\n    #000 calc(67.5% - 32.5%),\r\n    var(--brand-500)\r\n  );\r\n  --brand-660: color-mix(\r\n    in srgb,\r\n    #000 calc(73.3% - 32.5%),\r\n    var(--brand-500)\r\n  );\r\n  --brand-700: color-mix(\r\n    in srgb,\r\n    #000 calc(78.8% - 32.5%),\r\n    var(--brand-500)\r\n  );\r\n  --brand-730: color-mix(\r\n    in srgb,\r\n    #000 calc(83.7% - 32.5%),\r\n    var(--brand-500)\r\n  );\r\n  --brand-760: color-mix(\r\n    in srgb,\r\n    #000 calc(87.1% - 32.5%),\r\n    var(--brand-500)\r\n  );\r\n  --brand-800: color-mix(\r\n    in srgb,\r\n    #000 calc(90% - 32.5%),\r\n    var(--brand-500)\r\n  );\r\n  --brand-830: color-mix(\r\n    in srgb,\r\n    #000 calc(92.9% - 32.5%),\r\n    var(--brand-500)\r\n  );\r\n  --brand-860: color-mix(\r\n    in srgb,\r\n    #000 calc(95.5% - 32.5%),\r\n    var(--brand-500)\r\n  );\r\n  --brand-900: color-mix(\r\n    in srgb,\r\n    #000 calc(97.6% - 32.5%),\r\n    var(--brand-500)\r\n  );\r\n\r\n  /* Opaque brand variables */\r\n  --brand-05a: color-mix(\r\n    in srgb,\r\n    var(--brand-500) 5%,\r\n    transparent\r\n  );\r\n  --brand-10a: color-mix(\r\n    in srgb,\r\n    var(--brand-500) 10%,\r\n    transparent\r\n  );\r\n  --brand-15a: color-mix(\r\n    in srgb,\r\n    var(--brand-500) 15%,\r\n    transparent\r\n  );\r\n  --brand-20a: color-mix(\r\n    in srgb,\r\n    var(--brand-500) 20%,\r\n    transparent\r\n  );\r\n  --brand-25a: color-mix(\r\n    in srgb,\r\n    var(--brand-500) 25%,\r\n    transparent\r\n  );\r\n  --brand-30a: color-mix(\r\n    in srgb,\r\n    var(--brand-500) 30%,\r\n    transparent\r\n  );\r\n  --brand-35a: color-mix(\r\n    in srgb,\r\n    var(--brand-500) 35%,\r\n    transparent\r\n  );\r\n  --brand-40a: color-mix(\r\n    in srgb,\r\n    var(--brand-500) 40%,\r\n    transparent\r\n  );\r\n  --brand-45a: color-mix(\r\n    in srgb,\r\n    var(--brand-500) 45%,\r\n    transparent\r\n  );\r\n  --brand-50a: color-mix(\r\n    in srgb,\r\n    var(--brand-500) 50%,\r\n    transparent\r\n  );\r\n  --brand-55a: color-mix(\r\n    in srgb,\r\n    var(--brand-500) 55%,\r\n    transparent\r\n  );\r\n  --brand-60a: color-mix(\r\n    in srgb,\r\n    var(--brand-500) 60%,\r\n    transparent\r\n  );\r\n  --brand-65a: color-mix(\r\n    in srgb,\r\n    var(--brand-500) 65%,\r\n    transparent\r\n  );\r\n  --brand-70a: color-mix(\r\n    in srgb,\r\n    var(--brand-500) 70%,\r\n    transparent\r\n  );\r\n  --brand-75a: color-mix(\r\n    in srgb,\r\n    var(--brand-500) 75%,\r\n    transparent\r\n  );\r\n  --brand-80a: color-mix(\r\n    in srgb,\r\n    var(--brand-500) 80%,\r\n    transparent\r\n  );\r\n  --brand-85a: color-mix(\r\n    in srgb,\r\n    var(--brand-500) 85%,\r\n    transparent\r\n  );\r\n  --brand-90a: color-mix(\r\n    in srgb,\r\n    var(--brand-500) 90%,\r\n    transparent\r\n  );\r\n  --brand-95a: color-mix(\r\n    in srgb,\r\n    var(--brand-500) 95%,\r\n    transparent\r\n  );\r\n\r\n  /* Old brand varibales */\r\n  --brand-experiment-05a: var(--brand-05a);\r\n  --brand-experiment-10a: var(--brand-10a);\r\n  --brand-experiment-15a: var(--brand-15a);\r\n  --brand-experiment-20a: var(--brand-20a);\r\n  --brand-experiment-25a: var(--brand-25a);\r\n  --brand-experiment-30a: var(--brand-30a);\r\n  --brand-experiment-35a: var(--brand-35a);\r\n  --brand-experiment-40a: var(--brand-40a);\r\n  --brand-experiment-45a: var(--brand-45a);\r\n  --brand-experiment-50a: var(--brand-50a);\r\n  --brand-experiment-55a: var(--brand-55a);\r\n  --brand-experiment-60a: var(--brand-60a);\r\n  --brand-experiment-65a: var(--brand-65a);\r\n  --brand-experiment-70a: var(--brand-70a);\r\n  --brand-experiment-75a: var(--brand-75a);\r\n  --brand-experiment-80a: var(--brand-80a);\r\n  --brand-experiment-85a: var(--brand-85a);\r\n  --brand-experiment-90a: var(--brand-90a);\r\n  --brand-experiment-95a: var(--brand-95a);\r\n\r\n  --text-brand: var(--brand-500);\r\n  --mention-background: var(--brand-30a);\r\n\r\n  /* Scrollbars */\r\n  --scrollbar-auto-thumb: var(--brand-500);\r\n  --scrollbar-auto-track: color-mix(\r\n    in srgb,\r\n    var(--brand-500) 25%,\r\n    transparent\r\n  );\r\n  --scrollbar-thin-thumb: var(--brand-500);\r\n  --scrollbar-thin-track: transparent;\r\n}\r\n\r\n\r\n/* Match Send Friend Request Button color with the Profile Color */\r\n.custom-profile-theme [aria-label=\"Send Friend Request\"] button {\r\n background-color: var(--profile-gradient-button-color);\r\n transition: opacity .2s ease-in-out;\r\n}\r\n.custom-profile-theme [aria-label=\"Send Friend Request\"] button:hover {\r\n background-color: var(--profile-gradient-button-color);\r\n opacity: 0.8;\r\n}\r\n\r\n.listItems_affa7e {\r\n    align-content: center;\r\n    justify-content: center;\r\n    flex-wrap: wrap;\r\n    gap: 0px;\r\n}\r\n\r\n.controlSection_bfe55a {\r\n    opacity: 1 !important;\r\n    transform: none !important;\r\n}\r\n\r\n\r\n/* Shiggy */\r\n.content_a2f514 {\r\n    display: flex;\r\n    flex-direction: column;\r\n    > .spinner_a2f514 { display: none }\r\n    &:before {\r\n        display: block;\r\n        height: 128px;\r\n        position: relative;\r\n        content: url(https://raw.githubusercontent.com/Vencord/Vesktop/refs/heads/main/static/shiggy.gif);\r\n        image-rendering: pixelated;\r\n         align-content: center;\r\n         scale: 3.125;\r\n         margin-bottom: 96px;\r\n    }\r\n}\r\n\r\n\r\n\r\n/* Make Delete/Logout Buttons Trans */\r\n@keyframes transfg {\r\n    0% { color: lightblue; }\r\n    25% { color: pink; }\r\n    50% { color: white; }\r\n    75% { color: pink; }\r\n    100% { color: lightblue; }\r\n}\r\n@keyframes transbg {\r\n    0% { background: lightblue; }\r\n    25% { background: pink; }\r\n    50% { background: white; }\r\n    75% { background: pink; }\r\n    100% { background: lightblue; }\r\n}\r\n[class^=item_][data-tab-id=\"DELETE\"],\r\n[class^=item_][data-tab-id=\"logout\"] {\r\n    animation: transfg 5s infinite;\r\n}\r\n[class^=item_][data-tab-id=\"DELETE\"]:hover,\r\n[class^=item_][data-tab-id=\"logout\"]:hover {\r\n    animation: transbg 3s infinite;\r\n}\r\n\r\n@keyframes rainbowBackgroundTransparent {\r\n  0% { background-color: rgba(255, 0, 0, 0.4); }      /* Red */\r\n  16% { background-color: rgba(255, 165, 0, 0.4); }    /* Orange */\r\n  33% { background-color: rgba(255, 255, 0, 0.4); }    /* Yellow */\r\n  50% { background-color: rgba(0, 128, 0, 0.4); }      /* Green */\r\n  66% { background-color: rgba(0, 0, 255, 0.4); }      /* Blue */\r\n  83% { background-color: rgba(75, 0, 130, 0.4); }     /* Indigo */\r\n  100% { background-color: rgba(238, 130, 238, 0.4); } /* Violet */\r\n}\r\n\r\n@keyframes rainbow {\r\n  0% { color: rgba(255, 0, 0, 1); }      /* Red */\r\n  16% { color: rgba(255, 165, 0, 1); }    /* Orange */\r\n  33% { color: rgba(255, 255, 0, 1); }    /* Yellow */\r\n  50% { color: rgba(0, 128, 0, 1); }      /* Green */\r\n  66% { color: rgba(0, 0, 255, 1); }      /* Blue */\r\n  83% { color: rgba(75, 0, 130, 1); }     /* Indigo */\r\n  100% { color: rgba(238, 130, 238, 1); } /* Violet */\r\n}\r\n\r\n[aria-label*=gay] [class*=folderIconWrapper] {\r\n  animation: rainbowBackgroundTransparent 5s infinite;\r\n  transition: background-color 0.5s ease;\r\n}\r\n\r\n[aria-label*=gay] [class*=folderIconWrapper] svg {\r\n  animation: rainbow 5s infinite;\r\n  transition: color 0.5s ease;\r\n}\r\n\r\n/* Transgender Boost Gradient; Recolors the boosting gradient to be the best flag ever */\r\nbody {\r\n    --guild-boosting-blue: #60d0fa, #f5acba, #ffffff;\r\n    --guild-boosting-purple: #ffffff, #f5acba, #60d0fa;\r\n}"
 }
